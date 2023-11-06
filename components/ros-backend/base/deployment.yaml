@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: ros-backend
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ros-tenant/ros-backend/ros-backend@sha256:f8de82fe7472177a0a0ce59a023cc1ed67f54f67dfac416601cbd99693fa0c6b
+      - image: quay.io/redhat-user-workloads/rh-ros-tenant/ros-backend/ros-backend@sha256:56b3cdbfc28562edf3a0c3e801a14b3c201d5070b5bc784a33e480fefacf5f27
         imagePullPolicy: Always
         name: container-image
         ports:
